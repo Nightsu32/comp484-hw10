@@ -1,25 +1,27 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Barry B. Benson Pet Game</title>
-    <meta name="description" content="A Barry B. Benson themed Giga Pet game">
+    <title>Barry B. Benson Pet Game - DevTools Assignment</title>
+    <meta name="description" content="A Barry B. Benson themed Giga Pet game with Chrome DevTools examples">
     <link id="favicon" rel="icon" href="https://glitch.com/edit/favicon-app.ico" type="image/x-icon">
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <script src="script.js" defer></script>
     <link rel="stylesheet" href="style.css">
   </head>
+
   <body>
     <header>
-      <h1>
-        Meet Barry B. Benson
-      </h1>
+      <h1>Meet Barry B. Benson</h1>
+      <p>Chrome DevTools Debugging Project</p>
     </header>
 
     <main>
       <section class="pet-image-container">
-<img class="pet-image" src="images/Barry-B-Benson.webp" alt="Barry B. Benson">      </section>
+        <img class="pet-image" src="images/Barry-B-Benson.webp" alt="Barry B. Benson">
+      </section>
 
       <section class="dashboard">
         <div>Name: <strong><span class="name"></span></strong></div>
@@ -35,6 +37,31 @@
 
         <div class="pet-comment">
           Barry is ready to buzz around.
+        </div>
+      </section>
+
+      <section class="dashboard devtools-panel">
+        <h2>Chrome DevTools Examples</h2>
+
+        <p>
+          Use these buttons to create console messages, browser errors,
+          breakpoints, and debugging examples for the assignment screenshots.
+        </p>
+
+        <div class="button-container">
+          <button class="log-demo-button">Run Message Logging</button>
+          <button class="error-404-button">Cause 404 Network Error</button>
+          <button class="type-error-button">Cause TypeError</button>
+          <button class="violation-button">Cause Violation</button>
+          <button class="bug-button">Reproduce Bug</button>
+          <button class="fix-button">Apply Fix</button>
+          <button class="debug-button">Pause With Breakpoint</button>
+        </div>
+
+        <div class="devtools-output">
+          Open Chrome DevTools using <strong>F12</strong> or
+          <strong>Right Click → Inspect</strong>, then check the
+          <strong>Console</strong> and <strong>Sources</strong> tabs.
         </div>
       </section>
     </main>
